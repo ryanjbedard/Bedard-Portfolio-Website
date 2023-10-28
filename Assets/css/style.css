@@ -1,8 +1,19 @@
+:root {
+    color
+}
+
 .Header nav {
-    display: inline-block
+    display: inline-block;
     
 }
 
+
+footer {
+    display: flex;
+    justify-content: center;
+
+
+}
 
 
 /* @media screen and (max-width: 992px) {
@@ -13,7 +24,8 @@
 }
 
 @media screen and (max-width: 768px) {
-    nav {
+    header {
+        flex-direction: column;
       
     }
 }
