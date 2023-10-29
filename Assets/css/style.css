@@ -7,13 +7,22 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-ul {
-    text-align: end;
+h2 {
+    float: left;
+    padding: 12px;
+    margin: 12px;
+    background-color: rgb(244, 244, 244);
+    border: 5px black;
 }
 
-ul li {
+nav {
     display: inline-block;
     padding: 5px;
+    align-content: end;
+}
+
+body {
+    display: flexbox;
 }
 
 main {
@@ -21,25 +30,72 @@ main {
 }
 
 .Header {
-    display: flex;
+    display: block;
     background-color: lightslategrey;
     padding: 8px;
     text-align: end;
-    border-bottom: 4px solid blue;
+    border-bottom: 4px solid rgb(45, 45, 59);
+}
+
+.Header a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.Header li {
+    display: inline;
+    padding: 6px;
+}
+
+#Projects {
+    display: flex;
+}
+
+.Project-One-Box {
+    width: 600px;
+    height: 600px;
+    flex-direction: row;
+    background-color: rgba(146, 255, 255, 0.358);
+    padding: 4px;
+    border: 3px black;
+    margin-top: 2%; 
 }
 
 .Project-Box {
-    display: flex;
-    
+    flex-direction: row;
+    height: 150px;
+    width: 300px;
+    background-color: rgba(146, 255, 255, 0.358);
+    padding: 4px;
+    border: 3px blue;
+    margin-top: 2%;
+    width: 200px; 
 }
 
+.Project-Box h2 {
+}
 
 #Name {
     font-size:xx-large;
     text-align: left;
     font-style: bolder;
+    color: whitesmoke
 }
 
+
+
+.Contact-Me {
+ display: flex;
+ flex-direction: row;
+}
+
+.Contact-Me div {
+    background-color: lightslategrey;
+}
+
+.Contact-Me p {
+
+}
 
 footer {
     background-color: lightslategrey;

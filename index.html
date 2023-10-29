@@ -12,13 +12,13 @@
             <header class="Header">
                 <div>
                     <div><h1 id="Name">Ryan Bedard</h1></div>
-                    <!-- Nav Bar -->
+        <!-- Nav Bar -->
                     <nav>
                         <ul>
-                            <li><a>About Me</a></li>
-                            <li><a>Work</a></li>
-                            <li><a>Resume</a></li>
-                            <li><a>Contact</a></li> 
+                            <li><a href="#About-Me">About Me</a></li>
+                            <li><a href="#Work">Work</a></li>
+                            <li><a href="#Resume">Resume</a></li>
+                            <li><a href="#Contact">Contact</a></li> 
                         </ul>
                     </nav>
                 </div>
@@ -27,27 +27,29 @@
         <!-- Main Content of the Page -->
             <!-- About Me Section -->
             <section>
-                <h2>About Me</h2>
+                <h2 id="About-Me">About Me</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </section>
             <!-- List of Work -->
             <section>
-                <div class="Projects">
+                <div id=Work class="Projects">
                     <div>
                         <h2>Work</h2>
                     </div>
                 <!-- Project One -->
-                    <div class="Project-Box">
-                        <div>
-                            <h3><a>Prework Study Guide</a></h3>
-                            <p>Lorem ipsum</p>
-                        </div>
+                    <div>
+                        <a href="https://ryanjbedard.github.io/prework-study-guide/">
+                            <div class="Project-One-Box">
+                                <h3>Prework Study Guide</h3>
+                                <p>Lorem ipsum</p>
+                            </div>
+                        </a>
                     </div>
                 <!-- Project Two -->
                     <div class="Project-Box">
                         <div>
                             <h3>Refactoring Challenge</h3>
-                            <p><a href="https://ryanjbedard.github.io/Module01-Challenge/"></a></p>
+                            <p><a href="https://ryanjbedard.github.io/Module01-Challenge/">This is a link</a></p>
                         </div>
                     </div>
                 <!-- Project Three -->
@@ -64,18 +66,28 @@
                             <p>Lorem ipsum</p>
                         </div>
                     </div>
+                <!-- Project Five -->
+                    <div class="Project-Box">
+                        <div>
+                            <h3>Project Five</h3>
+                            <p>Lorem ipsum</p>
+                        </div>
+                    </div>
                 </div>
             </section>
             <!-- Resume -->
             <section>
-                <h2>Resume</h2>
+                <h2 id="Resume">Resume</h2>
                 <p>Coming Soon</p>
             </section>
             <!-- Contact Information -->
-            <section>
-                <h2>Contact</h2>
-                <p>610-836-1156</p>
-                <p>ryanjbedard@gmail.com</p>
+            <section id="Contact" class="Contact-Me">
+                <div>
+                    <h2>Contact</h2>
+                    <p>610-836-1156</p>
+                    <p>ryanjbedard@gmail.com</p>
+                </div>
+            
             </section>
         </main>
     </body>
