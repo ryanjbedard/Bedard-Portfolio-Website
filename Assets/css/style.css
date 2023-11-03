@@ -29,6 +29,11 @@ body {
     flex-direction: column;
 }
 
+#About {
+    display:flex;
+    margin-top: 25px;
+}
+
 #background-img {
     position: absolute;
     z-index: -1;
@@ -50,7 +55,6 @@ main {
 
 #Name {
     font-size:xx-large;
-    float: left;
     font-style: bolder;
     color: whitesmoke
 }
@@ -90,28 +94,54 @@ header img {
 
 #Projects {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-top: 50px;
 }
 
 .Titles {
     font-size:x-large;
 }
 
+#Contact {
+    display: flex;
+}
+
+#Contact-Links {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
 .Title-Box {
     justify-content: left;
-    padding-right: 600px;
+    padding-right: 300px;
     padding-left: 150px;
+    border-right: 5px solid black;
+    margin-right: 50px
+}
+
+.Title-Box-Contact {
+    padding-right: 300px;
+    padding-left: 150px;
+    border-right: 5px solid black;
+    margin-right: 50px
 }
 
 .Title-Box p {
     /* align-items: justify; */
-    float: left;
     padding-left: 300px;
 }
 
-main section h2 {
-    float: left;
+#Contact-Title {
+    border-right: 5px solid black;
+}
+
+
+#subProjects {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    width: 50%;
 }
 
 
@@ -145,39 +175,20 @@ main section h2 {
 .Project-Box {
     display: flex;
     flex-wrap: wrap;
-    height: 180px;
+    height: 300px;
+     width: 300px; 
     background-color: rgba(146, 255, 255, 0.358);
     align-items: center;
     justify-content: center;
     padding: 4px;
     border: 3px black;
     margin-top: 2%;
-    width: 200px; 
 }
 
 
 /* Contact Me Section for Below */
 
-.Contact-Me h2 {
-    display: flex;
-    justify-content: left;
-    float: left;
-    padding-right: 300px;
-}
 
-.Contact-Me p {
-    padding-right: 100px;
-}
-
-.Contact-Me {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(244, 244, 244);
-    border: 5px black;
-    padding-right: 600px;
-
-}
 
 footer {
     display: flex;
