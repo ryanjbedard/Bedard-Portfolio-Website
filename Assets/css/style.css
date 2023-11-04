@@ -35,8 +35,18 @@ body {
 }
 
 #background-img {
+    display: flex;
     position: absolute;
+    justify-content: center;
+    height: auto;
+    width: auto;
     z-index: -1;
+}
+
+#Name-Align {
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
 }
 
 #Profile-Pic {
@@ -89,7 +99,6 @@ header img {
 }
 
 
-
 /* Main content Structure */
 
 #Projects {
@@ -99,15 +108,19 @@ header img {
 
 .Titles {
     font-size:x-large;
+    font: rgb(45, 45, 59);
 }
 
 #Contact {
     display: flex;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 #Contact-Links {
     display: flex;
     justify-content: center;
+    margin-left: 400px;
     gap: 200px;
 }
 
@@ -115,14 +128,14 @@ header img {
     justify-content: left;
     padding-right: 300px;
     padding-left: 150px;
-    border-right: 5px solid black;
-    margin-right: 50px
+    border-right: 5px inset black;
+    margin-right: 25px
 }
 
 .Title-Box-Contact {
-    padding-right: 300px;
+    padding-right: 273px;
     padding-left: 150px;
-    border-right: 5px solid black;
+    border-right: 5px inset black;
     margin-right: 50px
 }
 
@@ -132,7 +145,7 @@ header img {
 }
 
 #Contact-Title {
-    border-right: 5px solid black;
+    border-right: 5px inset black;
 }
 
 
@@ -143,6 +156,9 @@ header img {
     flex-wrap: wrap;
     width: 50%;
 }
+
+
+
 
 
 .Project-Box-Section {
@@ -176,7 +192,7 @@ header img {
     display: flex;
     flex-wrap: wrap;
     height: 300px;
-     width: 300px; 
+    width: 300px; 
     background-color: rgba(146, 255, 255, 0.358);
     align-items: center;
     justify-content: center;
