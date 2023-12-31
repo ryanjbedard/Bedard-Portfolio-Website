@@ -69,7 +69,15 @@ main {
     color: whitesmoke
 }
 
+#Pic-One {
+    width: 1280px;
+    height: 720px;
+}
 
+.Project-Pics {
+    width: 640px;
+    height: 360px;
+}
 
 .Header {
     display: block;
@@ -154,7 +162,7 @@ header img {
     gap: 15px;
     margin-top: 10px;
     flex-wrap: wrap;
-    width: 50%;
+    justify-content: center;
 }
 
 
